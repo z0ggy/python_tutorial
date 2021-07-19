@@ -42,7 +42,6 @@ Lee = Person("Lee", "Williams", 72, status=True)
 print("{} is my friend? {}".format(Maria.firstname, Maria.status))
 print("{} is my friend? {}".format(Rey.firstname, Rey.status))
 
-
 Maria.introduce()
 Rey.introduce()
 Lee.introduce()
@@ -50,3 +49,5 @@ Lee.introduce()
 Maria.status_change()
 Rey.status_change()
 Lee.status_change()
+
+
